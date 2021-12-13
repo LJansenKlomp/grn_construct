@@ -43,4 +43,7 @@ net <- GENIE3(
   verbose = FALSE
 )
 writeMat(paste(localpath, "data/", cell_tp, "_GENIEnet.mat", sep = ""), x = net)
+
+writeMat(paste(localpath, "data/", cell_tp, "_GENIEgenes.mat", sep = ""), g = gene_set)
+
 print("Done")
