@@ -1,3 +1,6 @@
+# script for opening raw GEO data and saving this data
+# in a .mat file, R file and .csv file
+
 library(dplyr)
 library(Seurat)
 library(R.matlab)
