@@ -5,7 +5,7 @@ library(dplyr)
 library(Seurat)
 library(R.matlab)
 
-data_dir <- "C:/Data/phdCode/data"
+data_dir <- "C:/Data/Code/scimap_code/grn_construct/data"
 
 data_list <- list.dirs(path = data_dir, full.names = TRUE, recursive = FALSE)
 data_names <- basename(data_list)

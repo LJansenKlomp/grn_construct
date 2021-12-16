@@ -6,11 +6,11 @@ library(data.table)
 library(R.matlab)
 
 # parameters to be set by user
-cell_tp <- "chondrogenic"
-target_genes <- c("COL2A1", "ACAN")
-day <- 42
+cell_tp <- "sclerotome"
+target_genes <- c("SOX9","PDGFRA","PDGFRB")
+day <- 28
 
-localpath <- "C:/Data/phdCode/"
+localpath <- "C:/Data/Code/scimap_code/grn_construct/"
 
 # load and organize data
 print("Loading data...")
