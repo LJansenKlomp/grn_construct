@@ -1,8 +1,8 @@
 % choose network name and threshold for showing connections
 
 % name
-nm = 'paraxial_msd';
-full_nm = 'paraxial mesoderm';
+nm = 'pluripotency';
+full_nm = 'pluripotent';
 
 % threshold
 tr = 0.1;
