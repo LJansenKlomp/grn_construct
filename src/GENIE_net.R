@@ -66,4 +66,7 @@ writeMat(paste(localpath, "data/", cell_tp, "_GENIEnet.mat", sep = ""), x = net)
 writeMat(paste(localpath, "data/", cell_tp, "_GENIEgenes.mat", sep = ""),
  g = gene_set)
 
+writeMat(paste(localpath, "data/", cell_tp, "_GENIEdata.mat", sep = ""),
+ m = mat)
+
 print("Done")
