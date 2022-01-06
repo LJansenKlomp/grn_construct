@@ -29,7 +29,7 @@ for (k in 1:length(target_genes)) {
 
   for (j in 1:dim(nd_dat)[1]) {
 
-    # if the current gene is not already a 
+    # if the current gene is not already a
     # member of the list of added nodes, add it
     nm <- nd_dat[j, 1]
     ind <- match(nm, genes)
