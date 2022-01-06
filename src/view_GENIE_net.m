@@ -1,8 +1,13 @@
 % choose network name and threshold for showing connections
 
 % name
+<<<<<<< HEAD
 nm = 'pluripotency';
 full_nm = 'pluripotent';
+=======
+nm = 'chondrogenic';
+full_nm = 'chondrogenic';
+>>>>>>> 5cc2f61b86b897f240fbfbe2f92ab2cfbef884c3
 
 % threshold
 tr = 0.1;
@@ -25,6 +30,8 @@ G = digraph(x);
 Gp = digraph(A);
 plot(Gp,'-.sr','NodeLabel',g,'LineWidth',1)
 title(['Most important edges in network generated for ', full_nm, ' cells'])
+set(gcf,'Position',[100 100 900 900])
+print(gcf,[nm,'_net.png'],'-r700','-dpng');
 
 % network measures
 pr = centrality(G,'pagerank');
@@ -41,4 +48,5 @@ function show_rank(x,g,nm,N)
         disp(nm{1});  
     end
 end
+
 
